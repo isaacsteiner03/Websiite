@@ -55,7 +55,7 @@ nav #projres {
     font-size: 30px;
     font-weight: bold;
 }
-img {
+#headshot {
     width: 400px;
     height: auto;
     border: 3px solid black;
@@ -71,4 +71,56 @@ img {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    border: 3px solid black;
+    color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  #languageimg {
+    width: 50px;
+    height: auto;
+    border: 3px solid black;
+}
+
+#contact {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#contactinfo {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex; 
+    justify-content: center;
+}
+#about {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+#abouttxt {
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    display: flex; 
+    justify-content: center;
 }
